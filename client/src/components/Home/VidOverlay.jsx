@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 // import image from '../../assets/image.png'
 
-const videoSrc = "https://player.vimeo.com/video/1059493429?h=d627d7e6b2";
+const videoSrc = "https://player.vimeo.com/video/1059208124?h=76c7143322";
 
 const VidOverlay = () => {
   const videoRef = useRef(null);
@@ -21,7 +21,8 @@ const VidOverlay = () => {
     <iframe
       className="absolute  top-0 left-0 w-full h-full rounded-lg"
       title="Safire-Demo"
-      src="https://player.vimeo.com/video/1059493429"
+      src={videoSrc}
+      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
       allowFullScreen
     ></iframe>
   </div>

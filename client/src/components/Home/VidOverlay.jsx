@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 // import image from '../../assets/image.png'
 
-const videoSrc = "https://player.vimeo.com/video/1059208124?h=76c7143322";
+const videoSrc = "https://player.vimeo.com/video/1059493429?h=d627d7e6b2";
 
 const VidOverlay = () => {
   const videoRef = useRef(null);
